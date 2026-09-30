@@ -1,0 +1,1 @@
+import{r as o,o as s,c,b as n}from"./index-C8hxf4IA.js";const r={class:"cjr-empty"},_={__name:"EmptyState",props:{text:{type:String,default:"暂无数据"}},setup(e){return(p,a)=>{const t=o("el-empty");return s(),c("div",r,[n(t,{description:e.text,"image-size":80},null,8,["description"])])}}};export{_};

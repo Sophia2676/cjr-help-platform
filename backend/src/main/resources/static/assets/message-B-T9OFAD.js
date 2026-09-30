@@ -1,0 +1,1 @@
+import{C as a}from"./index-C8hxf4IA.js";const t=e=>a.get("/message/page",{params:e}),g=()=>a.get("/message/unread/count"),m=e=>a.put(`/message/${e}/read`),r=e=>a.put("/message/read/all",null,{params:e?{type:e}:{}}),n=e=>a.delete(`/message/${e}`);export{t as a,m as b,n as d,g,r as m};

@@ -1,0 +1,1 @@
+import{C as t}from"./index-C8hxf4IA.js";const p=e=>t.get("/experience/page",{params:e}),r=e=>t.get(`/experience/${e}`),s=e=>t.post("/experience",e),i=(e,c)=>t.put(`/experience/${e}`,c),a=e=>t.delete(`/experience/${e}`),x=e=>t.get("/experience/my",{params:e});export{r as a,x as b,s as c,a as d,p as g,i as u};

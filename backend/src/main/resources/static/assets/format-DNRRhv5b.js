@@ -1,0 +1,1 @@
+import{J as t}from"./index-C8hxf4IA.js";const e=r=>{if(!r)return"";const a=t(r);return a.isSame(t(),"day")?a.format("HH:mm"):a.isSame(t().subtract(1,"day"),"day")?"昨天 "+a.format("HH:mm"):a.isSame(t(),"year")?a.format("MM-DD HH:mm"):a.format("YYYY-MM-DD")},f=r=>r?t(r).format("YYYY-MM-DD HH:mm:ss"):"",o=r=>r==null?"0.00":Number(r).toFixed(2);export{o as a,f as b,e as f};
