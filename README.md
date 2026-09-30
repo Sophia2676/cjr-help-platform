@@ -46,6 +46,9 @@ cjr-help-platform/
 
 项目根目录的 **`cjr-help-platform.jar`** 已内置前端页面与后端服务，一个文件运行全站：
 
+> **下载运行包**：<https://github.com/Sophia2676/cjr-help-platform/releases/download/v1.1.0/cjr-help-platform-v1.1.0.jar>
+> （或自行构建：见下方「重新生成单文件 jar」）
+
 ```bash
 # 1. 准备数据库（首次）
 mysql -uroot -p < backend/src/main/resources/db/init.sql
